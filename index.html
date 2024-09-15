@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Profile of Waleed Abbas showcasing skills, projects, awards, and certifications.">
+    <meta name="keywords" content="Waleed Abbas, Professional, Web Developer, Software Engineer, Portfolio">
+    <meta name="author" content="Waleed Abbas">
+    <title>WALEED ABBAS - Professional Profile</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <style>
+        /* Mobile-First Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgba(50, 233, 50, 0.452);
+        }
+
+        header {
+            background-image: url('Untitled.jpeg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #000000;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        header h1 {
+            font-size: 1.8rem; /* Adjusted for mobile */
+        }
+
+        nav {
+            background-color: #00000052;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 1rem;
+            color: #000000;
+        }
+
+        nav a {
+            color: #020101;
+            text-decoration: none;
+            margin-bottom: 0.5rem;
+            font-size: 1rem;
+        }
+
+        section {
+            padding: 1rem;
+        }
+
+        .skills, .projects, .awards, .certifications, .education, .side-projects {
+            margin-bottom: 2rem;
+        }
+
+        .skills ul, .projects ul, .awards ul, .certifications ul, .education ul, .side-projects ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        footer {
+            background-color: #33333360;
+            color: #fff;
+            text-align: center;
+            padding: 0.5rem;
+            position: relative;
+            width: 100%;
+            margin-top: 1rem;
+        }
+
+        /* Video Responsiveness */
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Social Media Icon Styling */
+        .fa-brands {
+            font-size: 40px;
+            color: #1DA1F2;
+            margin-right: 10px;
+            transition: color 0.3s ease;
+        }
+
+        /* Social Media Section Padding */
+        #social-media {
+            padding-bottom: 2rem;
+            text-align: center;
+        }
+
+        /* Social Media Icon Adjustments */
+        #social-media a {
+            margin: 0 10px;
+            display: inline-block;
+        }
+
+        /* Media Query for Tablets and Desktops */
+        @media (min-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+
+            nav {
+                flex-direction: row;
+                justify-content: space-evenly;
+            }
+
+            nav a {
+                margin-bottom: 0;
+                font-size: 1.1rem;
+            }
+
+            #social-media {
+                text-align: left;
+            }
+        }
+
+        /* Additional styling for larger screens */
+        @media (min-width: 1024px) {
+            header h1 {
+                font-size: 3rem;
+            }
+
+            nav {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>WALEED ABBAS</h1>
+        <p>Professional Profile</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#awards">Awards</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#education">Education</a>
+        <a href="#side-projects">Side Projects</a>
+    </nav>
+
+    <!-- Section: Skills -->
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <h3>Soft Skills</h3>
+        <ul>
+            <li>Leadership</li>
+            <li>Communication</li>
+            <li>Time Management</li>
+        </ul>
+
+        <h3>Hard Skills</h3>
+        <ul>
+            <li>HTML/CSS/JavaScript</li>
+            <li>Python</li>
+            <li>Data Structures & Algorithms</li>
+        </ul>
+    </section>
+
+    <!-- Section: Video Content -->
+    <section id="video" class="video">
+        <h2>Introduction Video</h2>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- Section: Projects -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <strong>Project 1</strong> - Date: Jan 2023
+                <p>Description: Developed an e-commerce website using Python and Django.</p>
+            </li>
+            <li>
+                <strong>Project 2</strong> - Date: June 2022
+                <p>Description: Created a mobile app using Flutter for local businesses.</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Section: Awards -->
+    <section id="awards" class="awards">
+        <h2>Awards</h2>
+        <ul>
+            <li>Best Developer Award - Tech Conference 2022</li>
+            <li>Employee of the Year - ABC Corp 2021</li>
+        </ul>
+    </section>
+
+    <!-- Section: Certifications -->
+    <section id="certifications" class="certifications">
+        <h2>Certifications</h2>
+        <ul>
+            <li>Python for Data Science - Coursera</li>
+            <li>Full Stack Web Developer - Udemy</li>
+        </ul>
+    </section>
+
+    <!-- Section: Education -->
+    <section id="education" class="education">
+        <h2>Education</h2>
+        <ul>
+            <li>
+                <strong>Bachelor's in Computer Science</strong> - ITU (2022-2026)
+            </li>
+            <li>
+                <strong>Masters in Data Science</strong> - University of ABC (2026-2028)
+            </li>
+        </ul>
+    </section>
+
+    <!-- Section: Side Projects / Hackathons -->
+    <section id="side-projects" class="side-projects">
+        <h2>Side Projects & Hackathons</h2>
+        <ul>
+            <li>
+                Participated in XYZ Hackathon 2021, won 3rd prize for AI-based project.
+            </li>
+            <li>
+                Developed a personal finance tracker app as a side project.
+            </li>
+        </ul>
+    </section>
+
+    <!-- Social Media Feed Section -->
+    <section id="social-media">
+        <h2>Social Media Feed</h2>
+        <a href="https://twitter.com/WALEED" target="_blank">
+            <i class="fa-brands fa-twitter icon-twitter"></i>
+        </a>
+        <a href="https://facebook.com" target="_blank">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="https://instagram.com" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://linkedin.com" target="_blank">
+            <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© WALEED ABBAS - All rights reserved</p>
+    </footer>
+</body>
+</html>
